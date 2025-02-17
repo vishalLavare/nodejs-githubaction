@@ -5,7 +5,7 @@
   "containerDefinitions": [
     {
       "name": "mynodecont",
-      "image": "025066269402.dkr.ecr.us-east-1.amazonaws.com/mynewrepo",  // Make sure this is the correct image with tag
+      "image": "025066269402.dkr.ecr.us-east-1.amazonaws.com/mynewrepo:latest",  
       "cpu": 0,
       "portMappings": [
         {
