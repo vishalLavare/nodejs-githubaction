@@ -53,7 +53,7 @@ jobs:
       id: task-def
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-        task-definition: mytaskdef-revision1
+        task-definition: mytaskdef-revision1.json
         container-name: mynodecont
         image: ${{ steps.build-image.outputs.image }}
 
