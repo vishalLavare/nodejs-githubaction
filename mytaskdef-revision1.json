@@ -1,5 +1,9 @@
 {
   "family": "mytask-family",
+  "requiresCompatibilities": ["FARGATE"],
+  "networkMode": "awsvpc",  # Required for Fargate
+  "cpu": "256",  # Set the appropriate CPU for your container
+  "memory": "512",  # Set the appropriate memory for your container
   "containerDefinitions": [
     {
       "name": "mynodecont",
